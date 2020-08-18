@@ -97,14 +97,20 @@ In this tutorial, We will be using RHEL 7.8
    ```sh
    # db.createCollection('user'); 
    ```
+   The output of the above should result:
+   ```sh
    { "ok" : 1 }
+   ```
    
    
    4.4 Show collections
    ```sh
    # show collections;
    ```
+   The output of the above should result:
+   ```sh
    user
+    ```
    
    
    4.5 Insert
@@ -117,15 +123,21 @@ In this tutorial, We will be using RHEL 7.8
    4.6 Find collection
    ```sh
    # db.user.find();
-   ```
+   ``` 
+   The output of the above should result:
+   ```sh
    { "_id" : ObjectId("5f3b6b0a3b6976978ce646c1"), "name" : "Phila" } 
+   ```
    
    
    4.7 Delete collection
    ```sh
    # db.user.drop()
    ```
+   The output of the above should result:
+   ```sh
    true
+    ```
    
    
    4.8 Show collections
