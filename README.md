@@ -28,7 +28,9 @@ In this tutorial, We will be using RHEL 7.8
    ```
    
    1.2 Save and quite vi
-   #wq:
+   ```sh
+   # wq:
+   ```
 
 
    ### Step 2: Install MongoDB database server on LinuxONE Community Cloud
@@ -132,7 +134,7 @@ In this tutorial, We will be using RHEL 7.8
    ```
  
   
-  ### WELL DONE!
+  ### Well Done!
    
    
  
