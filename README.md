@@ -39,7 +39,8 @@ In this tutorial, We will be using Rhel 7.
    ```sh
    # sudo yum install -y mongodb-enterprise
    ```
-   
+   <img width="678" alt="Screenshot 2020-08-18 at 06 56 44" src="https://user-images.githubusercontent.com/50323060/90484801-fac63a00-e136-11ea-9286-747ad854c789.png">
+   <img width="451" alt="Screenshot 2020-08-18 at 06 57 15" src="https://user-images.githubusercontent.com/50323060/90485274-99529b00-e137-11ea-998e-270a44744f72.png">
     
    ### Step 3: Configure MongoDB server
    
@@ -67,12 +68,13 @@ In this tutorial, We will be using Rhel 7.
    # sudo systemctl status mongod
    ```
   
+<img width="676" alt="Screenshot 2020-08-18 at 07 00 54" src="https://user-images.githubusercontent.com/50323060/90486387-2518f700-e139-11ea-9341-165b094bdc86.png">
     
    3.4 MongoDB Shell
    ```sh
    # mongo
    ```
-   
+   <img width="676" alt="Screenshot 2020-08-18 at 07" src="https://user-images.githubusercontent.com/50323060/90486447-3cf07b00-e139-11ea-8d17-66de1e93280a.png">
    
    ### Step 4: Create MongoDB Collections
    4.1 Show existing database
