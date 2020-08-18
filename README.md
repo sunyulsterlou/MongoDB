@@ -2,7 +2,7 @@
 Open source software (IBMZ/LinuxONE). MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time
 
 At a high level, MongoDB enables developers that use data to build easily, adapt quickly, and scale reliably. 
-In this tutorial, We will be using RHEL 7.
+In this tutorial, We will be using RHEL 7.8
 
 
 ## Prerequisites
@@ -14,7 +14,7 @@ In this tutorial, We will be using RHEL 7.
    1.1 Create repo file
    Create a repo file so that you can install MongoDB enterprise directly using yum
    
-   For RHEL7.8: 
+   For RHEL 7.8: 
    ```sh
    # sudo vi /etc/yum.repos.d/mongodb-enterprise-4.4.repo
    ```
