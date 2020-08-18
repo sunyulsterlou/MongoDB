@@ -20,11 +20,11 @@ In this tutorial, We will be using Rhel 7.
    ```
    ```sh
    #[mongodb-enterprise-4.4]
-name=MongoDB Enterprise Repository
-baseurl=https://repo.mongodb.com/yum/redhat/$releasever/mongodb-enterprise/4.4/$basearch/
-gpgcheck=1
-enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
+    name=MongoDB Enterprise Repository
+    baseurl=https://repo.mongodb.com/yum/redhat/$releasever/mongodb-enterprise/4.4/$basearch/
+    gpgcheck=1
+    enabled=1
+    gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
    ```
    
    1.2 Save and quite vi
