@@ -2,7 +2,7 @@
 Open source software (IBMZ/LinuxONE). MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time
 
 At a high level, MongoDB enables developers that use data to build easily, adapt quickly, and scale reliably. 
-In this tutorial, We will be using Rhel 7.
+In this tutorial, We will be using RHEL 7.
 
 
 ## Prerequisites
