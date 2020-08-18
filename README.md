@@ -128,7 +128,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
    ```sh
    # show collections;
    ```
-  
+ 
   
   WELL DONE!
    
