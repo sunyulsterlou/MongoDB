@@ -11,8 +11,7 @@ In this tutorial, We will be using RHEL 7.8
 
 ### Step 1: Configure repository
  
-   1.1 Create repo file
-   Create a repo file so that you can install MongoDB enterprise directly using yum
+   1.1 Create a repo file so that you can install MongoDB enterprise directly using yum
    
    For RHEL 7.8: 
    ```sh
