@@ -81,6 +81,7 @@ In this tutorial, We will be using Rhel 7.
    ```sh
    # show dbs; 
    ```
+  <img width="114" alt="Screenshot 2020-08-18 at 07 48 44" src="https://user-images.githubusercontent.com/50323060/90487041-2eef2a00-e13a-11ea-8e20-e5d2cb735cac.png">
   admin   0.000GB
   config  0.000GB
   local   0.000GB
@@ -90,6 +91,7 @@ In this tutorial, We will be using Rhel 7.
    ```sh
    # use demo_db
    ```
+   <img width="159" alt="Screenshot 2020-08-18 at 10 02 57" src="https://user-images.githubusercontent.com/50323060/90487084-3e6e7300-e13a-11ea-9db3-a052edabc1d3.png">
   switched to db demo_db
    
    
@@ -111,7 +113,8 @@ In this tutorial, We will be using Rhel 7.
    ```sh
    # db.user.insert({"name":"Phila"});
    ```
-   WriteResult({ "nInserted" : 1 })
+   #WriteResult({ "nInserted" : 1 })
+   <img width="233" alt="Screenshot 2020-08-18 at 10 06 36" src="https://user-images.githubusercontent.com/50323060/90487342-a2913700-e13a-11ea-8984-6ad8ba8adb04.png">
    
    
    4.6 Find collection
@@ -134,7 +137,7 @@ In this tutorial, We will be using Rhel 7.
    ```
  
   
-  WELL DONE!
+  ### WELL DONE!
    
    
  
