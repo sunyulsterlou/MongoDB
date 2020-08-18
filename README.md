@@ -55,10 +55,9 @@ In this tutorial, We will be using RHEL 7.8
    Failed to start mongod.service: Unit mongod.service not found.
       
    Run the following command first:
-             
-    ```sh 
-    # sudo systemctl daemon-reload
-    ```
+   ```sh 
+   # sudo systemctl daemon-reload
+   ```
    
    3.2 Enable MongoDB
    ```sh
@@ -117,10 +116,10 @@ In this tutorial, We will be using RHEL 7.8
    ```
    The output of the above should result:
    
-    ```sh
-    # user
-    ```
- 
+```sh
+   user
+   ```
+   
    4.5 Insert
    
    ```sh
