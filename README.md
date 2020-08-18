@@ -117,11 +117,10 @@ In this tutorial, We will be using RHEL 7.8
    ```
    The output of the above should result:
    
-   ```sh
-    user
+    ```sh
+    # user
     ```
-   
-   
+ 
    4.5 Insert
    
    ```sh
