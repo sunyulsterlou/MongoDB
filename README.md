@@ -47,12 +47,12 @@ In this tutorial, We will be using RHEL 7.8
    ### Step 3: Configure MongoDB server
    
    3.1 Start MongoDB
-   
    ```sh
    # sudo systemctl start mongod
    ```
    If you receive an error similar to the following when starting mongod:
-      Failed to start mongod.service: Unit mongod.service not found.
+      
+   Failed to start mongod.service: Unit mongod.service not found.
       
    Run the following command first:
              
@@ -117,8 +117,8 @@ In this tutorial, We will be using RHEL 7.8
    ```
    The output of the above should result:
    
-   ```
-   user
+   ```sh
+    user
     ```
    
    
@@ -152,7 +152,7 @@ In this tutorial, We will be using RHEL 7.8
    
    ```sh
    true
-    ```
+   ```
    
    
    4.8 Show collections
