@@ -47,6 +47,7 @@ In this tutorial, We will be using RHEL 7.8
    ### Step 3: Configure MongoDB server
    
    3.1 Start MongoDB
+   
    ```sh
    # sudo systemctl start mongod
    ```
@@ -66,6 +67,7 @@ In this tutorial, We will be using RHEL 7.8
    
    
    3.3 Check status of the MongoDB server
+   
    ```sh
    # sudo systemctl status mongod
    ```
@@ -73,13 +75,15 @@ In this tutorial, We will be using RHEL 7.8
 <img width="676" alt="Screenshot 2020-08-18 at 07 00 54" src="https://user-images.githubusercontent.com/50323060/90486387-2518f700-e139-11ea-9341-165b094bdc86.png">
     
    3.4 MongoDB Shell
-   ```sh
+  
+  ```sh
    # mongo
    ```
    <img width="676" alt="Screenshot 2020-08-18 at 07" src="https://user-images.githubusercontent.com/50323060/90486447-3cf07b00-e139-11ea-8d17-66de1e93280a.png">
    
    ### Step 4: Create MongoDB Collections
    4.1 Show existing database
+   
    ```sh
    # show dbs; 
    ```
@@ -87,6 +91,7 @@ In this tutorial, We will be using RHEL 7.8
    
    
    4.2 Create database
+   
    ```sh
    # use demo_db
    ```
@@ -94,53 +99,64 @@ In this tutorial, We will be using RHEL 7.8
    
    
    4.3 Create Collection
+   
    ```sh
    # db.createCollection('user'); 
    ```
    The output of the above should result:
-   ```sh
+   
+   ```
    { "ok" : 1 }
    ```
    
    
    4.4 Show collections
+   
    ```sh
    # show collections;
    ```
    The output of the above should result:
-   ```sh
+   
+   ```
    user
     ```
    
    
    4.5 Insert
+   
    ```sh
    # db.user.insert({"name":"Phila"});
    ```
+   
    <img width="233" alt="Screenshot 2020-08-18 at 10 06 36" src="https://user-images.githubusercontent.com/50323060/90487342-a2913700-e13a-11ea-8984-6ad8ba8adb04.png">
    
    
    4.6 Find collection
+   
    ```sh
    # db.user.find();
    ``` 
    The output of the above should result:
+   
    ```sh
    { "_id" : ObjectId("5f3b6b0a3b6976978ce646c1"), "name" : "Phila" } 
    ```
    
    
    4.7 Delete collection
+   
    ```sh
    # db.user.drop()
    ```
    The output of the above should result:
+   
    ```sh
    true
     ```
    
    
    4.8 Show collections
+   
    ```sh
    # show collections;
    ```
