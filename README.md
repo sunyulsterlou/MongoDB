@@ -6,7 +6,7 @@ In this tutorial, We will be using Rhel 7.
 
 
 ## Prerequisites
- 1. Request access to LinuxONE Community Cloud. Follow instructions [here] (https://github.com/PhilaD1/technical-resources)
+ 1. Request access to LinuxONE Community Cloud. Follow instructions [here](https://github.com/PhilaD1/technical-resources/blob/master/faststart/deploy-virtual-server.md)
 
 
 ### Step 1: Configure repository
