@@ -26,7 +26,7 @@ In this tutorial, We will be using RHEL 7.8
     gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
    ```
    
-   1.2 Save and quite vi
+   1.2 Save and quit vi
    ```sh
    # wq:
    ```
